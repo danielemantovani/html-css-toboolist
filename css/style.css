@@ -23,7 +23,8 @@
     width: 1000px;
     text-align: center;
     padding-top: 20px;
-    border-radius: 10px 10px 0 0 
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 1px;
 }
 
 .box-ins-task{
@@ -38,4 +39,95 @@
     height: 30px;
     width: 100px;
     border-radius: 5px;
+}
+
+/* secondo container grande */
+
+.container-grande{
+    background-color: rgb(237 242 247);
+    width: 1000px;
+    height: 600px;
+    padding: 60px;
+}
+
+/* inizio lista annidata, task precedenti */
+
+ol{
+    list-style-type: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.elementi-sottolineati{
+    width: 700px;
+    height:40px;
+    background-color: white;
+    margin-left: 10px;
+    margin: 10px ;
+    text-decoration: line-through;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+
+.editorial{
+    background-color: rgb(20 170 245);
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: line-through black;
+}
+
+/* task oggi */
+
+.q1-goals{
+    background-color: rgb(171 93 230);
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: line-through black;
+}
+
+.elementi-non-sottolineati{
+    width: 700px;
+    height:40px;
+    background-color: white;
+    margin-left: 10px;
+    margin: 10px ;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.recruiting{
+    background-color: rgb(44 198 171);
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mobile{
+    background-color: rgb(255 155 0);
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: line-through black;
 }
