@@ -8,8 +8,34 @@
     background-color: rgb(237 242 247);
     height: 80px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .logo{
     margin-top: 10px;
+}
+
+/* primo container con funzione inserimento nuovi task */
+
+.input-container{
+    background-color: rgb(237 242 247);
+    height: 80px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px 10px 0 0 
+}
+
+.box-ins-task{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.button-add-task{
+    background-color: rgb(20 170 245);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
 }
