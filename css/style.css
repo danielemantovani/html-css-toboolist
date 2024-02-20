@@ -131,3 +131,29 @@ ul{
     border-radius: 10px;
     text-decoration: line-through black;
 }
+
+/* task prossimi gionri */
+
+.website{
+    background-color: rgb(236 74 157);
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: line-through black;
+}
+
+.sales{
+    background-color:rgb(163 209 22);
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: line-through black;
+}
